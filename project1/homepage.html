@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diamond cosmetics</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- google font link   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        #bodybannerimg {
+            width: 100%;
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
+        .card {
+            border: none !important;
+        }
+
+        .featured-product {
+            background: rgba(185, 175, 175, 0.163);
+        }
+
+        #featured-product {
+            /* font-family: 'Domine', serif; */
+            font-family: 'Gruppo', sans-serif;
+            font-size: 2vw;
+            font-weight: bolder;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- dynamic header  -->
+    <div class="sticky-top" id="header"></div>
+
+
+
+    <!-- mainbody banner  -->
+    <div class="" id="mainbodybanner">
+        <img id="bodybannerimg" src="bodybanner1.svg" alt="">
+    </div>
+
+
+    <!-- displayed items in row flex  -->
+    <div class="container-fluid gx-0">
+
+        <div class="  row  gx-0 ">
+            <div class=" col  text-center ">
+                <ul class="list-group">
+                    <li class="list-group-item border-white"><img
+                            src="https://www.maccosmetics.in/media/export/cms/secondary_navigation/serumizer_navigation.PNG"
+                            alt=""></li>
+
+                    <li class="text-center list-group-item border-white">SKINCARE</li>
+                </ul>
+            </div>
+            <div class=" col  text-center ">
+                <ul class="list-group">
+                    <li class="list-group-item border-white"><img
+                            src="https://www.maccosmetics.in/media/export/cms/secondary_navigation/foundation.png"
+                            alt=""></li>
+
+                    <li class="text-center list-group-item border-white">FOUNDATION</li>
+                </ul>
+            </div>
+            <div class=" col  text-center ">
+                <ul class="list-group">
+                    <li class="list-group-item border-white"><img
+                            src="https://www.maccosmetics.in/media/export/cms/secondary_navigation/pen_swatch.png"
+                            alt=""></li>
+
+                    <li class="text-center list-group-item border-white">CONCEALER</li>
+                </ul>
+            </div>
+            <div class=" col  text-center ">
+                <ul class="list-group">
+                    <li class="list-group-item border-white"><img
+                            src="https://www.maccosmetics.in/media/export/cms/secondary_navigation/mascara_navigation.png"
+                            alt=""></li>
+
+                    <li class="text-center list-group-item border-white">MASKARA</li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- carousel for featured products  -->
+    <div class="container-fluid  featured-product text-center p-5 ">
+        <span id="featured-product">FEATURED PRODUCTS</span>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide container " data-bs-ride="carousel">
+
+            <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                    <div class="row">
+                        <div class="col">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/b/nivea-lip-bustter-raspberry-rose-melts-your-dry-lips-kharkiv-ukraine-october-nivea-lip-butter-raspberry-rose-melts-your-165322582.jpg"
+                                    alt="" class="card-img-top" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">lip balm</h2>
+                                    <h4>
+                                        $20
+                                    </h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, modi.
+
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-solid fa-bag-shopping me-2" style="color: #ffffff;"></i>Add to
+                                            cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/b/london-uk-april-revlon-professionals-style-masters-shampoo-white-baground-london-uk-april-revlon-professionals-style-115594399.jpg"
+                                    alt="" class="card-img-top" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">shampoo</h2>
+                                    <h4>$20</h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, ipsam.
+
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-solid fa-bag-shopping me-2" style="color: #ffffff;"></i>Add to
+                                            cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/b/london-uk-january-mac-false-lashes-mascara-container-brush-white-mac-cosmetics-was-founded-toronto-ontar-london-uk-107247000.jpg"
+                                    alt="" class="card-img-top" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">maskara</h2>
+                                    <h4>
+                                        $20
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Delectus, esse!
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-solid fa-bag-shopping me-2" style="color: #ffffff;"></i>Add to
+                                            cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/b/london-uk-march-mac-cosmetics-skin-powder-foundation-container-white-background-was-founded-toronto-ontario-88715531.jpg"
+                                    alt="" class="card-img-top" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">skin powder</h2>
+                                    <h4>$20</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea,
+                                        mollitia?
+
+
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-solid fa-bag-shopping me-2" style="color: #ffffff;"></i>Add to
+                                            cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/b/nyx-concealer-eyeshadow-primer-professional-makeup-product-bucharest-romania-march-nyx-concealer-eyeshadow-primer-243316088.jpg" alt="" class="card-img-top" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">face primer</h2>
+                                    <h4>$30</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Minus, aliquid.
+
+
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                                            Add to cart</a></button>
+                                </div>
+                            </div>
+                        </div> -->
+
+                    </div>
+
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="row" id="iron">
+                        <div class="col">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/b/london-uk-january-mac-false-lashes-mascara-container-brush-white-mac-cosmetics-was-founded-toronto-ontar-london-uk-107247000.jpg"
+                                    alt="" class="card-img-top" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">eye liner</h2>o
+                                    <h4>$20</h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+
+
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-solid fa-bag-shopping me-2" style="color: #ffffff;"></i>
+                                            Add to cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/b/chonburi-thailand-january-bottle-facial-wash-foa-chonburi-thailand-january-bottle-facial-wash-foam-isolated-white-108802347.jpg" alt="" class="card-img-top" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">face wash</h2>
+                                    <h4>$20</h4>
+                                    <p class="card-text">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, voluptate.
+
+
+
+
+
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                                            Add to cart</a></button>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="col">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/z/nottingham-uk-may-p-g-herbal-essences-bio-renew-shampoo-conditioner-white-background-essence-illustrative-editorial-117901465.jpg?w=768"
+                                    alt="" class="card-img-top" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">conditioner</h2>
+                                    <h4>$20</h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, veniam.
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-solid fa-bag-shopping me-2" style="color: #ffffff;"></i>
+                                            Add to cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/z/bottle-rose-essential-oil-flower-white-bottle-rose-essential-oil-flower-isolated-white-151361733.jpg?w=576"
+                                    alt="" class="card-img-top" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">serum</h2>
+                                    <h4>$20</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Deleniti, facilis.
+
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-solid fa-bag-shopping me-2" style="color: #ffffff;"></i>
+                                            Add to cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/z/fashionable-lipstick-close-up-white-background-fashionable-lipstick-close-up-white-background-197398348.jpg?w=2048"
+                                    alt="" class="card-img-top" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">lipsticks</h2>
+                                    <h4>$30</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Beatae, velit?
+
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-solid fa-bag-shopping me-2" style="color: #ffffff;"></i>
+                                            Add to cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="row gx-0" id="iron">
+                        <div class="col">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/z/black-mascara-wand-applicator-stroke-against-white-background-50531852.jpg?w=576"
+                                    alt="" class="card-img-top" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">maskara</h2>
+                                    <h4>
+                                        $20
+                                    </h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, modi.
+
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-solid fa-bag-shopping me-2" style="color: #ffffff;"></i>
+                                            Add to cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col">
+                    
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/z/spa-hair-care-items-9235941.jpg?w=768" alt="" class="card-img-top"
+                                    style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">shampoo & conditioner</h2>
+                                    <h4>$20</h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, ipsam.
+                    
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                                            Add to cart</a></button>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="col">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/z/blue-nail-polish-21517.jpg?w=992" alt=""
+                                    class="card-img-top" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">nail pants</h2>
+                                    <h4>
+                                        $20
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Delectus, esse!
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-solid fa-bag-shopping me-2" style="color: #ffffff;"></i>
+                                            Add to cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/z/perfume-bottle-close-up-isolated-white-background-109202524.jpg?w=576"
+                                    alt="" class="card-img-top" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">perfumes</h2>
+                                    <h4>$20</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea,
+                                        mollitia?
+
+
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-solid fa-bag-shopping me-2" style="color: #ffffff;"></i>
+                                            Add to cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thumbs.dreamstime.com/b/london-uk-january-mac-false-lashes-mascara-container-brush-white-mac-cosmetics-was-founded-toronto-ontar-london-uk-107247000.jpg"
+                                    alt="" class="card-img-top" style="width: 18rem; height: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">kajal</h2>
+                                    <h4>$30</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Minus, aliquid.
+
+
+                                    </p>
+                                    <button class="btn btn-dark"><a href="#"
+                                            style="text-decoration: none; color: white;">
+                                            <i class="fa-solid fa-bag-shopping me-2" style="color: #ffffff;"></i>
+                                            Add to cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+
+
+    <!-- dynamic footer  -->
+    <div id="footer">
+    </div>
+
+
+
+
+
+    <!-- script bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+    <!-- js quarry -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header1.html")
+            $("#footer").load("footer.html")
+        })
+
+
+    </script>
+</body>
+
+</html>

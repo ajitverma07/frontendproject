@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&display=swap");
+
+.samefont,.card,#footer,.form-control,.DiamondCosmetics,.font-gruppo{
+    font-family: 'Gruppo', sans-serif;
+    /* font-style: italic; */
+  }

@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>header</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap v5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- bootstrap v4 -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
+
+  <style>
+    .nav {
+      box-shadow: 0px 0px 5px 0px;
+      /* margin-top: 0vh; */
+    }
+
+    .dropdown-item {
+      display: flex !important;
+      flex-direction: column !important;
+      /* height: 0; */
+      /* order: 2; */
+      width: 100%;
+    }
+
+    .nav-link {
+      color: black !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg bg-white ">
+
+      <div class="container-fluid me-5 ms-5">
+        <!-- logo  -->
+        <a class="navbar-brand" href="homepage.html"> <img src="logo5.png" alt="Bootstrap" width="90vw" height="40vh">
+        </a>
+
+
+        <!-- toggler button  -->
+        <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <!-- slider in header navbar  -->
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <div class="container-fluid me-2 rounded-pill bg-black text-center justify-content-center  "
+            style="color: white; width: 60vw;">
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide mt-2 " data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h6 class="d-block w-100"><b>SHOP NOW & GET EXCLUSIVE REWARDS</b></h6>
+
+                </div>
+                <div class="carousel-item">
+                  <h6 class="d-block w-100"><b>UPI IS AVAILABLE!</b></h6>
+
+                </div>
+                <div class="carousel-item">
+                  <h6 class="d-block w-100"><b>BUY ONE GET ONE ALSO AVAILABLE</b></h6>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- form-control for search bar -->
+          <form class="d-flex navbar-nav form-control-sm" role="search">
+
+            <input class="  rounded-pill bg-secondary-subtle ms-2 form-control-sm" type="search " placeholder="Search"
+              aria-label="Search">
+
+            <button class="btn btn-outline-white ms-3 "><a href="login.html"><img src="person-badge-fill.svg" alt=""
+                  style="width: 30px;"></a>
+
+            </button>
+
+            <button class=" btn btn-outline-white"><a href="cart.html"><img src="bag-fill.svg" alt=""
+                  style="width: 30px;"></a></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- navtabs start from here  -->
+    <ul class="nav justify-content-center bg-white ">
+      <li class="nav-item">
+        <a class="nav-link " aria-current="page" href="homepage.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="allproducts.html">All Products</a>
+      </li>
+
+
+      <!-- navtabs dropdown 1 -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Face
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="dropdown-item">
+            <div class="card">
+              <img
+                src="https://www.maccosmetics.in/media/export/cms/navigation_touts_2020/pc_bestsellerface_600x302.jpg"
+                style="height: 3rem;" alt="" class="card-img-top">
+              <div class="card-body">
+                <h6 class="card-title">
+                  Foundation
+                </h6>
+                <a href="commonpage.html">shop now</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://sdcdn.io/mac/in/mac_sku_NYA802_1x1_0.png?width=1080&height=1080" style="height: 3rem;"
+                alt="" class="card-img-top">
+              <div class="card-body">
+                <h6 class="card-title">
+                  Concealer
+                </h6>
+                <a href="commonpage.html">shop now</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://sdcdn.io/mac/in/mac_sku_ST50Y2_1x1_0.png?width=1080&height=1080" style="height: 3rem;"
+                alt="" class="card-img-top ">
+              <div class="card-body">
+                <h6 class="card-title">
+                  Highlighter
+                </h6>
+                <a href="commonpage.html">shop now</a>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+      </li>
+
+
+      <!-- navtabs dropdown 2  -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Lips
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li>
+            <div class="dropdown-item">
+              <div class="card">
+                <img
+                  src="https://www.maccosmetics.in/media/export/cms/collections/rubys_crew_cs/Lipfocus_GNAV1_120723.jpg"
+                  style="height: 3rem;" alt="" class="card-img-top">
+                <div class="card-body">
+                  <h6 class="card-title">
+                    Lipsticks
+                  </h6>
+                  <a href="commonpage.html">shop now</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://www.maccosmetics.in/media/export/cms/sch_LKI_launch_50405/GNAV_Image.jpg"
+                  style="height: 3rem;" alt="" class="card-img-top">
+                <div class="card-body">
+                  <h6 class="card-title">
+                    Lip colours
+                  </h6>
+                  <a href="commonpage.html">shop now</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://sdcdn.io/mac/in/mac_sku_STRJ02_1x1_0.png?width=1080&height=1080" style="height: 3rem;"
+                  alt="" class="card-img-top ">
+                <div class="card-body">
+                  <h6 class="card-title">
+                    Lip glosses
+                  </h6>
+                  <a href="commonpage.html">shop now</a>
+                </div>
+              </div>
+
+            </div>
+
+          </li>
+
+
+        </ul>
+      </li>
+
+
+      <!-- dropdown 3  -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Eyes
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li>
+            <div class="dropdown-item">
+              <div class="card">
+                <img
+                  src="https://www.maccosmetics.in/media/export/cms/navigation_touts_2020/GNAV-EYES-KAJAL-600x302.jpg"
+                  style="height: 3rem;" alt="" class="card-img-top">
+                <div class="card-body">
+                  <h6 class="card-title">
+                    Kajal
+                  </h6>
+                  <a href="commonpage.html">shop now</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://sdcdn.io/mac/in/mac_sku_STT201_1x1_0.png?width=1080&height=1080" style="height: 3rem;"
+                  alt="" class="card-img-top">
+                <div class="card-body">
+                  <h6 class="card-title">
+                    Maskara
+                  </h6>
+                  <a href="commonpage.html">shop now</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://sdcdn.io/mac/in/mac_sku_SGFK07_1x1_0.png?width=1080&height=1080" style="height: 3rem;"
+                  alt="" class="card-img-top ">
+                <div class="card-body">
+                  <h6 class="card-title">
+                    Eye liners
+                  </h6>
+                  <a href="commonpage.html">shop now</a>
+                </div>
+              </div>
+
+            </div>
+
+          </li>
+
+
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a href="contactus.html" class="nav-link ">Contacts us</a>
+      </li>
+      <li class="nav-item">
+        <a href="faq.html" class="nav-link ">FAQs</a>
+      </li>
+    </ul>
+  </div>
+
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script> -->
+</body>
+
+</html>
